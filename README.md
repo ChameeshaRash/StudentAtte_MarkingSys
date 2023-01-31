@@ -1,3 +1,8 @@
 # StudentAtte_MarkingSys
 
-This project was done for my Embedded project. 
+This project was done for my Embedded System project. 
+
+Biometric Identification based systems are in wide use for the purpose of uniquely singling out human beings basically to identify and verify them. There are lots of biometric-based systems like facial feature recognition, voice recognition, eye’s iris recognition, fingerprint recognition, palm recognition, etc.
+Here I am designing a simple module to be placed at the entrance of the lecture room. This module is able to recognize students’ fingerprints and mark their attendance. Firstly student needs to register the fingerprints of the user by using push buttons. 
+
+By using push buttons the user can register. These steps can see in the LCD display as well as serial monitor. To record the time and date of student attendance, we can use Google sheets. For this system, need Arduino IDE software write and uploads the programming logic onto the NodeMCU board. And also, Adafruit Fingerprint Sensor Library is used for downloading the data to the serial monitor of the Arduino IDE and for refined capture of the fingerprints. The system is able to provide the no of students who attended the class before the lecture & the lecturer will be notified about the number of students who attended each day via email not only that, the lecturer is able to watch the attendance history via Google Data studio. So he can get any idea like how many students did not attend to a specific topic.There are so many options in Google Data Studio that can apply to reports.Not only that Google data Sheet also provide so many filters for analyzing our informations.  
